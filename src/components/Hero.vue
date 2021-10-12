@@ -5,11 +5,9 @@
         <div class="col-12 col-md-4 col-left">
           <h1>Complete Your Dreams in JavaS Programming</h1>
           <p class="description">Learn any coding program in distance and for a reasonable fee. You don't have to struggle alone, you've got our assistance and help.</p>
-          <a href="#" class="btn">
+          <a href="#" class="btn btn-1">
               <i class="fas fa-download"></i>
-              <h6>
-                Download free E-book
-              </h6>
+              Download free E-book              
           </a>
         </div>
         <div class="col-12 col-md-8 col-right">
@@ -60,14 +58,11 @@ h1 {
   margin-bottom: 1.25rem;
 }
 
-h6 {
-  display: inline-block;
-  margin-left: .5rem;
-  font-size: .75rem;
+.btn i {
+  margin-right: .5rem;
+  vertical-align: middle;
 }
 
-.col-left {
-}
 .col-right {
   display: flex;
   justify-content: right;

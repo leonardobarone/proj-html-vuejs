@@ -51,7 +51,7 @@
                 <i class="far fa-user-circle"></i>
               </a>
           </div>
-          <input class="wrapper" type="text" placeholder="Search...">
+          <input type="text" placeholder="Search...">
         </div>
       </div>
     </div>
@@ -83,6 +83,14 @@ header {
   align-items: center;
 }
 
+// PROVA RESPONSIVE
+@media screen and (max-width: 48rem) {
+nav {
+  display: none;
+}
+}
+// FINE PROVA RESPONSIVE
+
 nav ul {
   display: flex;
   li {
@@ -105,11 +113,13 @@ nav ul {
 .account {
   display: flex;
   .cart {
-      width: 15px;
+      width: 1rem;
+      vertical-align: middle;
   }
   i {
-    color: var(--twoColor);
-    margin: 0px 10px 0px 10px;
+    vertical-align: middle;
+    // color: var(--twoColor);
+    margin: 0rem .625rem 0rem .625rem;
   }
 }
 
@@ -119,25 +129,25 @@ nav ul {
 
 .notification {
   text-align: center;
-  font-size: 6px;
-  line-height: 11px;
-  height: 11px;
-  width: 11px;
+  font-size: .375rem;
+  line-height: .6875rem;
+  height: .6875rem;
+  width: .6875rem;
   background-color: var(--threeColor);
   color: white;
   position: absolute;
   border-radius: 50%;
-  top: -2px;
+  top: 0px;
   right: -4px;
 }
 
 input {
   font-family: 'Poppins', sans-serif;
-  padding: 7px 14px;
+  padding: .4375rem .875rem;
   border-style: none;
   background-image: url('../assets/materiale/search.png');
   background-repeat: no-repeat;
-  background-size: 14px;
+  background-size: .875rem;
   background-position: right;
   background-origin: content-box;
 }
