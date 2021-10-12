@@ -16,3 +16,11 @@ a {
 ul {
     list-style: none;
 }
+
+.btn {
+    display: inline-block;
+    background-color: var(--threeColor);
+    padding: 10px 25px;
+    color: white;
+    border-radius: 4px;
+}

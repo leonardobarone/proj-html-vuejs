@@ -2,14 +2,17 @@
   <div id="hero">
     <div class="container">
       <div class="row align-items-center">
-        <div class="col-4 col-left">
+        <div class="col-12 col-md-4 col-left">
           <h1>Complete Your Dreams in JavaS Programming</h1>
-          <p>Learn any coding program in distance and for a reasonable fee. You don't have to struggle alone, you've got our assistance and help.</p>
+          <p class="description">Learn any coding program in distance and for a reasonable fee. You don't have to struggle alone, you've got our assistance and help.</p>
           <a href="#" class="btn">
-            <h6>Download free E-book</h6>
+              <i class="fas fa-download"></i>
+              <h6>
+                Download free E-book
+              </h6>
           </a>
         </div>
-        <div class="col-8 col-right">
+        <div class="col-12 col-md-8 col-right">
           <img src="../assets/materiale/images/home-5-hero-image.png" alt="">
         </div>
       </div>
@@ -28,19 +31,18 @@ export default {
 #hero {
   position: relative;
   overflow: hidden;
-  padding: 20px 0px;
+  padding: 1.25rem 0rem;
   background-color: var(--oneColor);
-  border: 1px solid black;
 }
 
 #hero::before {
   content: "";
   position: absolute;
-  bottom: 0px;
-  left: 0px;
+  bottom: 0rem;
+  left: 0rem;
   width: 100%;
-  height: 80%;
-  z-index: -10px;
+  height: 60%;
+  z-index: -0.625rem;
   background-image: url("../assets/materiale/jumbo-overlay.svg");
   background-repeat: repeat;
   background-position: center;
@@ -48,17 +50,31 @@ export default {
   transform: rotate(180deg);
 }
 
+h1 {
+  line-height: 2.375rem;
+  color: var(--twoColor);
+  margin-bottom: 1.25rem;
+}
+
+.description {
+  margin-bottom: 1.25rem;
+}
+
+h6 {
+  display: inline-block;
+  margin-left: .5rem;
+  font-size: .75rem;
+}
+
 .col-left {
-  border: 1px solid black;
 }
 .col-right {
-  text-align: right;
-  border: 1px solid black;
+  display: flex;
+  justify-content: right;
 }
 .col-right img {
   position: relative;
-  z-index: 10px;
-  width: 70%;
-  border: 1px solid black;
+  z-index: .625rem;
+  width: 65%;
 }
 </style>
