@@ -35,6 +35,7 @@ ul {
     background-color: var(--threeColor);
     &:hover {
         background-color: var(--fourColor);
+        color: white;
     }
 }
 
@@ -45,4 +46,16 @@ ul {
         color: var(--threeColor);
         background-color: var(--oneColor);
     }
+}
+
+@mixin title-intro {
+    display: inline-block;
+    font-size: 2rem;
+    color: var(--twoColor);
+  }
+
+@mixin span-intro {
+    color: var(--threeColor);
+    font-size: 2rem;
+    font-weight: normal;
 }

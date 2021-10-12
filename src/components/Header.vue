@@ -88,6 +88,14 @@ header {
 .col-right {
   display: none;
 }
+.title-header {
+  display: inline-block;
+}
+.col-3 {
+  flex-basis: 100%;
+  text-align: center;
+  line-height: 0px;
+}
 }
 // FINE PROVA RESPONSIVE
 
