@@ -45,7 +45,7 @@
           <div class="account">
                <a href="#">
                 <img class="cart" src="../assets/materiale/shopping-cart.png" alt="logo cart">
-                <div class="zero">0</div>
+                <div class="notification">0</div>
               </a>
               <a href="#">
                 <i class="far fa-user-circle"></i>
@@ -102,20 +102,22 @@ nav ul {
   }
 }
 
-.cart {
-    width: 15px;
-}
-
-.account i {
-  color: var(--twoColor);
-  margin: 0px 10px 0px 10px;
+.account {
+  display: flex;
+  .cart {
+      width: 15px;
+  }
+  i {
+    color: var(--twoColor);
+    margin: 0px 10px 0px 10px;
+  }
 }
 
 .account a:first-child {
   position: relative;
 }
 
-.zero {
+.notification {
   text-align: center;
   font-size: 6px;
   line-height: 11px;
@@ -128,7 +130,6 @@ nav ul {
   top: -2px;
   right: -4px;
 }
-
 
 input {
   font-family: 'Poppins', sans-serif;
