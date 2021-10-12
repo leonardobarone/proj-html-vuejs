@@ -85,7 +85,7 @@ header {
 
 // PROVA RESPONSIVE
 @media screen and (max-width: 48rem) {
-nav {
+.col-right {
   display: none;
 }
 }
@@ -118,7 +118,7 @@ nav ul {
   }
   i {
     vertical-align: middle;
-    // color: var(--twoColor);
+    color: black;
     margin: 0rem .625rem 0rem .625rem;
   }
 }

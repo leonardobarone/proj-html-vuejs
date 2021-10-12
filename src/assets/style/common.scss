@@ -11,6 +11,9 @@ body  {
 // Common
 a {
     text-decoration: none;;
+    &:active, &:focus {
+        color: black;
+    }
 }
 
 ul {
@@ -18,19 +21,28 @@ ul {
 }
 
 .btn {
+    transition: 1s;
+    margin: .625rem 0rem;
     font-weight: bold;
-    font-size: 16px;
+    font-size: 1rem;
     display: inline-block;
-    padding: 10px 25px;
+    padding: .625rem 1.5625rem;
     color: white;
-    border-radius: 4px;
+    border-radius: .25rem;
 }
 
 .btn.btn-1 {
     background-color: var(--threeColor);
+    &:hover {
+        background-color: var(--fourColor);
+    }
 }
 
 .btn.btn-2 {
     background-color: transparent;
     color: grey;
+    &:hover {
+        color: var(--threeColor);
+        background-color: var(--oneColor);
+    }
 }

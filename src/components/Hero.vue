@@ -2,7 +2,7 @@
   <div id="hero">
     <div class="container">
       <div class="row align-items-center">
-        <div class="col-12 col-md-4 col-left">
+        <div class="col-12 col-md-5 col-left">
           <h1>Complete Your Dreams in JavaS Programming</h1>
           <p class="description">Learn any coding program in distance and for a reasonable fee. You don't have to struggle alone, you've got our assistance and help.</p>
           <a href="#" class="btn btn-1">
@@ -10,7 +10,7 @@
               Download free E-book              
           </a>
         </div>
-        <div class="col-12 col-md-8 col-right">
+        <div class="col-12 col-md-7 col-right">
           <img src="../assets/materiale/images/home-5-hero-image.png" alt="">
         </div>
       </div>
@@ -26,6 +26,13 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
+
+@media screen and (max-width: 48rem) {
+.col-left {
+  padding: 10px;
+}
+}
+
 #hero {
   position: relative;
   overflow: hidden;
@@ -56,6 +63,11 @@ h1 {
 
 .description {
   margin-bottom: 1.25rem;
+}
+
+.btn {
+  position: relative;
+  z-index: 10;
 }
 
 .btn i {
