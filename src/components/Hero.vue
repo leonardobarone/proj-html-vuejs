@@ -29,10 +29,12 @@ export default {
 
 @media screen and (max-width: 48rem) {
 .col-left {
-  padding: 10px;
+  padding: .625rem;
 }
 }
-
+.container {
+  padding-top: 4.125rem;
+}
 #hero {
   position: relative;
   overflow: hidden;

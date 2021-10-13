@@ -68,6 +68,11 @@ export default {
 <style scoped lang="scss">
 
 header {
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  // box-shadow: 0px 2px 3px black;
+  z-index: 99;
   background-color: var(--oneColor);
   padding: .9375rem;
 }
