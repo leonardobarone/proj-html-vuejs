@@ -38,6 +38,14 @@
               </div> 
             </div>
           </div>
+          <div class="row with-btn">
+            <div class="col-12">
+              <a href="#" class="btn btn-1">
+                View all courses
+                <i class="fas fa-long-arrow-alt-right"></i>
+              </a>
+            </div>
+          </div>
         </div>
       </div>
      
@@ -78,12 +86,14 @@ export default {
   }
 }
 
+
+
 .bg-color {
   background-color: var(--oneColor);
 }
 
 .cards .col-12 {
-  padding: 10px;
+  padding: .625rem;
 }
 
 .card {
@@ -93,58 +103,66 @@ export default {
     }
     &:hover .header-card img {
       opacity: 1;
-      transition: 1s;
+      // transition: 1s;
     }
-    border-radius: 5px;
-    // border: 1px solid black;
+    border-radius: .3125rem;
+    // border: .0625rem solid black;
     overflow: hidden;
   .header-card{
     position: relative;
     img {
       width: 100%;
-      opacity: 0.9;
-      transition: 1s;
+      opacity: 0.75;
+      transition: opacity 1s ease-out;
       display: block;
     }
     .price {
       position: absolute;
-      border-radius: 0px 0px 0px 5px;
+      border-radius: 0rem 0rem 0rem .3125rem;
       background-color: var(--threeColor);
       color: white;
-      font-size: 14px;
-      padding: 5px 15px;
-      top: 0px;
-      right: 0px;
+      font-size: .875rem;
+      padding: .3125rem .9375rem;
+      top: 0rem;
+      right: 0rem;
     }
   }
   .body-card {
     transition: background-color 1s ease-out;
-    padding: 15px;
+    padding: .9375rem;
     .teacher {
       display: flex;
       align-items: center;
       img {
         border-radius: 50%;
-        width: 25px;
+        width: 1.5625rem;
       }
       h6 {
-        margin-left: 10px;
+        margin-left: .625rem;
         font-weight: normal;
-        font-size: 12px;
+        font-size: .75rem;
       }
     }
     h3 {
-      margin: 5px 0px;
-      line-height: 24px;
+      margin: .3125rem 0rem;
+      line-height: 1.5rem;
     }
   }
 }
 
 .extra {
   display: flex;
-  margin: 20px 0px 15px 0px;
+  margin: 1.25rem 0rem .9375rem 0rem;
   i {
-    margin: 0px 10px;
+    margin: 0rem .625rem;
+  }
+}
+.with-btn {
+  text-align: center;
+  padding: .625rem 0rem 2.5rem 0rem;
+  .btn i {
+    margin-left: 0.5rem;
+    vertical-align: middle;
   }
 }
 

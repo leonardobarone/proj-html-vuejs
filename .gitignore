@@ -21,3 +21,19 @@ pnpm-debug.log*
 *.njsproj
 *.sln
 *.sw?
+
+
+# CREARE FILE IN GLOBAL
+# vue.config.js
+
+# E AGGIUNGERE
+# module.exports = {
+# 	publicPath: './'
+# };
+
+# IN GIT IGNORE ELIMINARE /DIST
+
+# E DOPODICHE FARE X VEDERE LA DIST
+# npm run build
+
+# PUSHARE
