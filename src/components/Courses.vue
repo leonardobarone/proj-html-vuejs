@@ -87,13 +87,23 @@ export default {
 }
 
 .card {
+    cursor: pointer;
+    &:hover .body-card {
+      background-color: white;
+    }
+    &:hover .header-card img {
+      opacity: 1;
+      transition: 1s;
+    }
     border-radius: 5px;
-    border: 1px solid black;
+    // border: 1px solid black;
     overflow: hidden;
   .header-card{
     position: relative;
     img {
       width: 100%;
+      opacity: 0.9;
+      transition: 1s;
       display: block;
     }
     .price {
@@ -108,6 +118,7 @@ export default {
     }
   }
   .body-card {
+    transition: background-color 1s ease-out;
     padding: 15px;
     .teacher {
       display: flex;
