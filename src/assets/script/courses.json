@@ -1,0 +1,56 @@
+[
+    {
+      "nameCourse": "Learning to Write as a Professional Author",
+      "imgCourse": "course-1.jpg",
+      "price": "$40.00",
+      "imgTeacher": "profile-1.jpeg",
+      "nameTeacher": "Blanche Fileds",
+      "lessons": "20",
+      "students": "50"
+    },
+    {
+      "nameCourse": "Customer-centric Info-Tech Strategies",
+      "imgCourse": "course-2.jpg",
+      "price": "Free",
+      "imgTeacher": "profile-2.jpeg",
+      "nameTeacher": "Maggie Strickland",
+      "lessons": "24",
+      "students": "769"
+    },
+    {
+      "nameCourse": "Open Programming Courses for Everyone: Python",
+      "imgCourse": "course-3.jpg",
+      "price": "$19.00",
+      "imgTeacher": "profile-2.jpeg",
+      "nameTeacher": "Maggie Strickland",
+      "lessons": "17",
+      "students": "62"
+    },
+    {
+      "nameCourse": "Academic Listening and Note-talking",
+      "imgCourse": "course-4.jpg",
+      "price": "$26.00",
+      "imgTeacher": "profile-1.jpeg",
+      "nameTeacher": "Blanche Fileds",
+      "lessons": "14",
+      "students": "67"
+    },
+    {
+      "nameCourse": "Master jQuery in a Short Period of Time",
+      "imgCourse": "course-5.jpg",
+      "price": "$39.00",
+      "imgTeacher": "profile-1.jpeg",
+      "nameTeacher": "Blanche Fileds",
+      "lessons": "6",
+      "students": "51"
+    },
+    {
+      "nameCourse": "Introduction to Javascript for Beginners",
+      "imgCourse": "course-6.jpg",
+      "price": "$59.00",
+      "imgTeacher": "profile-1.jpeg",
+      "nameTeacher": "Blanche Fileds",
+      "lessons": "14",
+      "students": "76"
+    }
+  ]

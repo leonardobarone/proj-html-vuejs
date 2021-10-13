@@ -54,8 +54,13 @@ ul {
     color: var(--twoColor);
   }
 
-@mixin span-intro {
+@mixin span-title-intro {
     color: var(--threeColor);
     font-size: 2rem;
     font-weight: normal;
+}
+
+@mixin p-top-title {
+    font-size: .75rem;
+    letter-spacing: .0625rem;
 }

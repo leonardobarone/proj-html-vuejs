@@ -89,19 +89,25 @@ export default {
 <style scoped lang="scss">
 @import '../assets/style/common';
 
+@media screen and (max-width: 48rem) {
+  .perspective .col-right p,
+  .perspective .col-right h3 {
+    text-align: center;
+  }
+}
+
 .title-1 {
   text-align: center;
   margin: 2.5rem 0rem;
   p {
-    font-size: .75rem;
-    letter-spacing: .0625rem;
+    @include p-top-title;
   }
  
   h3 {
     @include title-intro;
   }
   span {
-    @include span-intro;
+    @include span-title-intro;
   }
 }
 
@@ -147,8 +153,7 @@ export default {
   .col-right {
     line-height: 2.5rem;
     p {
-      color: var(--twoColor);
-      font-size: .75rem;
+      @include p-top-title;
       span {
         font-weight: bold
       }
@@ -156,7 +161,7 @@ export default {
     h3 {
     @include title-intro;
     span {
-      @include span-intro;
+      @include span-title-intro;
     }
     }
   }
