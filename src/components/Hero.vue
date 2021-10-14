@@ -28,6 +28,9 @@ export default {
 <style scoped lang="scss">
 
 @media screen and (max-width: 48rem) {
+  #hero {
+    text-align: center;
+  }
 .col-left {
   padding: .625rem;
 }

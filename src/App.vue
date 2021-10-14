@@ -6,6 +6,7 @@
       <Intro />
       <Counter />
       <Courses />
+      <Learn />
       <Events />
       <AboutUs />
     </main>
@@ -19,6 +20,7 @@ import Hero from './components/Hero.vue';
 import Intro from './components/Intro.vue';
 import Counter from './components/Counter.vue';
 import Courses from './components/Courses.vue';
+import Learn from './components/Learn.vue';
 import Events from './components/Events.vue';
 import AboutUs from './components/AboutUs.vue';
 import Footer from './components/Footer.vue';
@@ -30,6 +32,7 @@ export default {
     Hero,
     Intro,
     Counter,
+    Learn,
     Courses,
     Events,
     AboutUs,
