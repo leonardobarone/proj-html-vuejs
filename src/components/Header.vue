@@ -10,7 +10,12 @@
         <div class="col-9 col-right">
           <nav>
             <ul>
-              <li>
+              <li v-for="(page, item) in pages" :key="item">
+                <a href="#">
+                  {{page}}
+                </a>
+              </li>
+              <!-- <li>
                 <a href="#">
                   Home
                 </a>
@@ -39,7 +44,7 @@
                 <a href="#">
                   Shop
                 </a>
-              </li>
+              </li> -->
             </ul>
           </nav>
           <div class="account">
@@ -61,6 +66,9 @@
 <script>
 export default {
   name: 'Header',
+  props: {
+    pages: Array
+  }
 }
 </script>
 

@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <Header />
+    <Header :pages="pages" />
     <Hero />
     <main>
       <Intro />
@@ -10,7 +10,7 @@
       <Events />
       <AboutUs />
     </main>
-    <Footer />
+    <Footer :pages="pages" />
   </div>
 </template>
 
@@ -37,7 +37,19 @@ export default {
     Events,
     AboutUs,
     Footer
-  }
+  },
+  data() {
+    return {
+      pages: [
+        "Home",
+        "Pages",
+        "Courses",
+        "Features",
+        "Blog",
+        "Shop"
+      ],
+    }      
+  },
 }
 </script>
 

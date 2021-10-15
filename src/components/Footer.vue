@@ -27,12 +27,13 @@
         <div class="col-12 col-md-4">
           <h3>Explore</h3>
           <ul class="explore">
-            <li>Start here</li>
+            <li v-for="(page, index) in pages" :key="index">{{page}}</li>
+            <!-- <li>Start here</li>
             <li>Blog</li>
             <li>About us</li>
             <li>Success story</li>
             <li>Courses</li>
-            <li>Contact us</li>
+            <li>Contact us</li> -->
           </ul>
         </div>
         <div class="col-12 col-md-2">
@@ -55,6 +56,9 @@
 <script>
 export default {
   name: 'Footer',
+  props: {
+    pages: Array
+  }
 }
 </script>
 
