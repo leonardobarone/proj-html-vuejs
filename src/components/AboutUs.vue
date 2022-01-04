@@ -125,14 +125,14 @@ export default {
   padding: 2.5rem 0rem;
   p {
     font-weight: bold;
-    color: var(--fourColor);
+    color: var(--twoColor);
     span {
       font-weight: normal;
       color: var(--threeColor);
     }
   }
   h2 {
-    color: var(--fourColor);
+    color: var(--twoColor);
     margin-bottom: 1.875rem;
   }
 }
