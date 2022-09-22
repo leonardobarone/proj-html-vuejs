@@ -15,7 +15,6 @@
 </template>
 
 <script>
-import axios from 'axios';
 import Header from './components/Header.vue'
 import Hero from './components/Hero.vue';
 import Intro from './components/Intro.vue';
@@ -51,12 +50,6 @@ export default {
       ],
     }      
   },
-  created() {
-    axios.get('https://www.procidaisland.net/api/')
-          .then((res) => {
-            console.log(res);
-          })
-  }
 }
 </script>
 
